@@ -17,6 +17,7 @@ dependencies {
 
     //Apache httpcomponent, client
     compile 'org.apache.httpcomponents:httpclient-osgi:4.5.1'
+
     //compile 'org.apache.httpcomponents:httpclient:4.5.1'
 
     testCompile 'junit:junit:4.12'
@@ -62,6 +63,8 @@ android {
         compile.exclude group: "org.apache.httpcomponents", module: "httpclient"
         compile.exclude group: 'commons-logging', module: 'commons-logging'
         compile.exclude group: 'org.json', module: 'json'
+        compile.exclude group: 'commons-codec'
+
     }
 }
 
