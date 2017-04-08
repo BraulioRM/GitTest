@@ -7,7 +7,6 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.mashape.unirest.http.HttpResponse;
 import com.mashape.unirest.http.JsonNode;
 import com.mashape.unirest.http.Unirest;
-
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -18,12 +17,14 @@ public class BankAccount extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_bank_account);
 
-                //String YOUR_API_KEY = "YOUR_API_KEY";
-                //JSONObject body = new JSONObject();
+        /*
+
+                //String YOUR_API_KEY = "d87a77ad8b5de1bff86e9c72b7eeec5b";
+                JSONObject body = new JSONObject();
                 //body.put("Braulio", 121212);
 
                 String YOUR_API_KEY = "d87a77ad8b5de1bff86e9c72b7eeec5b";
-                JSONObject body = new JSONObject();
+                //JSONObject body = new JSONObject();
 
                 try {
                     body.put("name", "Braulio Demo");
@@ -48,5 +49,8 @@ public class BankAccount extends AppCompatActivity {
                 } catch (Exception e) {
                     System.out.println("Something went wrong!");
                 }
+                */
+
+
             }
 }
